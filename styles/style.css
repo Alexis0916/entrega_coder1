@@ -22,8 +22,14 @@ header {
 
 footer {
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: brown;
 }
+
+
 
 h1 {
     color: red;
@@ -58,6 +64,7 @@ form {
 }
 
 
+/* menu superior */
 
 .menu-superior {
     list-style: none;
@@ -95,21 +102,8 @@ form {
     display: block;
 }
 
+/* menu inferior */
 
-.menu-inferior {
-    list-style: none;
-}
-
-.nav-inferior {
-    display: inline-block;
-    margin: 30px;
-}
-
-.letra-menu-inf {
-    color: brown;
-    text-decoration: none;
-    display: block;
-}
 
 .titulo-inferior {
     color: gold;
@@ -121,6 +115,9 @@ form {
     color: white;
 }
 
+
+
+/* pagina personajes */
 .nombre {
     color: red;
     text-align: center;
@@ -135,6 +132,7 @@ form {
     display: block;
 }
 
+/* pagina tienda */
 .container_card {
     width: 100%;
     border: 10px solid #000;
@@ -174,6 +172,8 @@ form {
     text-align: center;
     border-radius: 15px;
 }
+
+/* pagina temporada */
 
 .nombre_saga {
     font-size: 700;
