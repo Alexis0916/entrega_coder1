@@ -24,7 +24,7 @@ footer {
     max-width: 1400px;
     margin: 30px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
     color: brown;
 }
@@ -32,14 +32,14 @@ footer {
 
 
 h1 {
-    color: red;
+    color: gold;
     text-align: center;
     margin: 20px auto;
     font-weight: 700;
 }
 
 h2 {
-    color: red;
+    color: gold;
     text-align: center;
     font-weight: 400;
 }
@@ -115,7 +115,23 @@ form {
     color: white;
 }
 
+.redes li a {
+    color: brown;
+    text-decoration: none;
+}
 
+.redes li a:hover {
+    color: gold
+}
+
+.redes li {
+    list-style: none;
+}
+.redes {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
 
 /* pagina personajes */
 .nombre {
