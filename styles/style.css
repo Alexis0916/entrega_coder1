@@ -85,15 +85,17 @@ form {
     color: gold;
 }
 
+
+
 .hero {
+    width: 75vw;
     max-width: 1400px;
-    height: 400px;
-    background-image: url(../img/principal/Principal.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    min-width: 320px;
     margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
+
 
 .hero2 {
     max-width: 500px;
